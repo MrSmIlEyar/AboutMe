@@ -1,16 +1,15 @@
 html {
-  zoom: 3; /* Увеличение масштаба на 20% */
+  zoom: 3;
 }
 
-
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    font-family: 'JetBrains Mono', monospace;
-    min-height: 100vh;
-    overflow: auto;
-    overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  min-height: 100vh;
+  overflow: auto;
+  overflow-x: hidden;
 }
 
 a {
@@ -20,155 +19,182 @@ a {
 
 /* Ширина полосы прокрутки */
 body::-webkit-scrollbar {
-    width: 0em;
-    background-color: transparent;
+  width: 0em;
+  background-color: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 body::-webkit-scrollbar-track {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #2F2FA2;
-    height: 35px;
-    border: 1px solid #F64C72;
-    border-bottom: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2F2FA2;
+  height: 35px;
+  border: 1px solid #F64C72;
+  border-bottom: none;
 }
 
 .Logo {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
 }
 
 .Logo1 {
-    color: white;
+  color: white;
 }
 
 .Logo2 {
-    color: #F64C72;
+  color: #F64C72;
 }
 
 .Logo3 {
-    color: white;
+  color: white;
 }
 
 .Smile {
-    padding-left: 150px;
-    padding-right: 100px;
-    display: flex;
-    color: white;
+  padding-left: 150px;
+  padding-right: 100px;
+  display: flex;
+  color: white;
 }
 
 .HeaderAnchors {
-    display: flex;
-    background-color: #242582;
-    color: white;
-    font-size: 10px;
-    margin-right: 5px;
-    border: 1px solid #F64C72;
-    transition: all 0.3s ease;
+  display: flex;
+  background-color: #242582;
+  color: white;
+  font-size: 10px;
+  margin-right: 5px;
+  border: 1px solid #F64C72;
+  transition: all 0.3s ease;
 }
 
 .HeaderAnchors:hover {
-    background-color: #F64C72;
-    border: 1px solid #242582;
-    color: #242582;
+  background-color: #F64C72;
+  border: 1px solid #242582;
+  color: #242582;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    flex-grow: 1;
-    overflow-y: auto;
-    overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .FrameShortInfo {
-    background-color: #242582;
-    height: 175px;
-    width: 100%;
-    border: 1px solid #F64C72;
-    box-sizing: border-box;
-    border-bottom: none;
+  background-color: #242582;
+  height: 175px;
+  width: 100%;
+  border: 1px solid #F64C72;
+  box-sizing: border-box;
+  border-bottom: none;
 }
 
 .FrameAboutMe {
-    background-color: #2F2FA2;
-    height: 250px;
-    width: 100%;
-    border: 1px solid #F64C72;
-    box-sizing: border-box;
-    border-bottom: none;
+  background-color: #2F2FA2;
+  height: 250px;
+  width: 100%;
+  border: 1px solid #F64C72;
+  box-sizing: border-box;
+  border-bottom: none;
 }
 
 .FrameProjects {
-    background-color: #242582;
-    height: 250px;
-    width: 100%;
-    border: 1px solid #F64C72;
-    box-sizing: border-box;
-    border-bottom: none;
+  background-color: #242582;
+  height: 250px;
+  width: 100%;
+  border: 1px solid #F64C72;
+  box-sizing: border-box;
+  border-bottom: none;
 }
 
 .FrameExperience {
-    background-color: #2F2FA2;
-    height: 250px;
-    width: 100%;
-    border: 1px solid #F64C72;
-    box-sizing: border-box;
-    border-bottom: none;
+  background-color: #2F2FA2;
+  height: 250px;
+  width: 100%;
+  border: 1px solid #F64C72;
+  box-sizing: border-box;
+  border-bottom: none;
 }
 
 footer {
-    display: flex;
-    font-size: 10px;
-    background-color: #242582;
-    color: white;
-    padding: 0px;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-    height: 35px;
-    width: 100%;
-    border: 1px solid #F64C72;
-    border-right: 1px solid #F64C72;
-    box-sizing: border-box;
+  display: flex;
+  font-size: 10px;
+  background-color: #242582;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  height: 35px;
+  width: 100%;
+  border: 1px solid #F64C72;
+  border-right: 1px solid #F64C72;
+  box-sizing: border-box;
 }
 
 .ContentFooter {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .CopyrightFooterIcon {
-    padding-top: 2px;
-    width: 10px;
-    height: 10px;
+  padding-top: 2px;
+  width: 10px;
+  height: 10px;
 }
 
 .AuthorFooter {
-    display: flex;
-    align-self: flex-end;
-    margin-left: 10px;
+  display: flex;
+  align-self: flex-end;
+  margin-left: 10px;
 }
 
 .InfoFooter {
-    align-self: center;
-    margin-right: 75px;
+  align-self: center;
+  margin-right: 75px;
 }
 
 .YearFooter {
-    align-self: flex-end;
-    margin-right: 10px;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 600px) {
+  .Logo {
+    font-size: 16px;
+  }
+
+  .Smile {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .HeaderAnchors {
+    font-size: 8px;
+  }
+
+  .FrameShortInfo,
+  .FrameAboutMe,
+  .FrameProjects,
+  .FrameExperience {
+    height: 200px;
+  }
+
+  footer {
+    font-size: 8px;
+  }
 }
