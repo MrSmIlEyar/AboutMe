@@ -172,17 +172,22 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+
   .Logo {
     font-size: 18px;
   }
 
   .Smile {
+    font-size: 18px;
     padding-left: 50px;
     padding-right: 50px;
   }
 
   .HeaderAnchors {
-    font-size: 8px;
+    font-size: 5px;
   }
 
   .FrameShortInfo,
@@ -190,9 +195,11 @@ footer {
   .FrameProjects,
   .FrameExperience {
     height: 200px;
+    width: 100%;
   }
 
   footer {
     font-size: 8px;
+    width: 100%;
   }
 }
